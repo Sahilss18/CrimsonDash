@@ -51,13 +51,14 @@
         updateBannerVisibility();
       }
 
+      var cacheBuster = "?v=" + Date.now();
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/docs.loader.js";
+      var loaderUrl = buildUrl + "/docs.loader.js" + cacheBuster;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/docs.data",
-        frameworkUrl: buildUrl + "/docs.framework.js",
-        codeUrl: buildUrl + "/docs.wasm",
+        dataUrl: buildUrl + "/docs.data" + cacheBuster,
+        frameworkUrl: buildUrl + "/docs.framework.js" + cacheBuster,
+        codeUrl: buildUrl + "/docs.wasm" + cacheBuster,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Sahil Singh",
         productName: "Crimson Dash",

@@ -8,7 +8,7 @@ It is free and open source. :clap: :tada:
 | --------------- | -------- | ----------- |
 
 <p align="center">
-  <img src="https://img.itch.zone/aW1hZ2UvMTU4NTg4LzcyNzg3Mi5wbmc=/original/AU5pWY.png" />
+  <img src="<img width="2920" height="1440" alt="Image" src="https://github.com/user-attachments/assets/db74f1c8-1e92-401e-9524-1dbda191d74c" />" />
 </p>
 
 [:camera: See Screenshots](#screenshots)
